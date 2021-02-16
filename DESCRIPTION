@@ -1,0 +1,29 @@
+Package: DumelleEtAl2021CopepodSentinel
+Title: Capturing Copepod Dynamics in the
+  Northern California Current Using Sentinel Stations
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Michael", "Dumelle", email = c("dumellem@oregonstate.edu", "Dumelle.Michael@epa.gov"), 
+          role = c("aut", "cre"), comment = c(ORCID = "0000-0002-3393-5529")),
+      person("Jesse F.", "Lamb", role = c("aut")),
+      person("Kym C.", "Jacobson", role = c("aut")),
+      person("Mary", "Hunsicker", role = c("aut")),
+      person("Cheryl A.", "Morgan", role = c("aut")),
+      person("Brian J.", "Burke", role = c("aut")),
+      person("William T.", "Peterson", role = c("aut"))
+      )
+Description: This is a helper package for "Capturing Copepod Dynamics in the
+  Northern California Current Using Sentinel Stations" published in Progress
+  in Oceanography for the William T. Peterson Special Issue.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+Depends: 
+    R (>= 2.10)
+VignetteBuilder: knitr

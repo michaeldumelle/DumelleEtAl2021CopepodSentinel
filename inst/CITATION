@@ -1,0 +1,16 @@
+citHeader("To cite this manuscript in publications use:")
+
+citEntry(
+  entry    = "article",
+  title    = "Captuing Copepod Dynamics in the Northern California Current Using Sentinel Stations",
+  author   = c(person("Michael", "Dumelle"),
+  person("Jesse F.", "Lamb"),
+  person("Kym C.", "Jacobson"),
+  person("Mary", "Hunsicker"),
+  person("Cheryl A.", "Morgan"),
+  person("Brian J.", "Burke"),
+  person("William T.", "Peterson")),
+  journal  = "Progress in Oceanography",
+  year     = 2021,
+  textVersion = "Dumelle, Michael., Lamb, Jesse F., Jacobson, Kym C., Hunsicker, Mary., Morgan, Cheryl A., Burke, Brian J., Peterson, William T. 2021. Capturing Copepod Dynamics in the Northern California Current Using Sentinel Stations. Progress in Oceanography."
+)

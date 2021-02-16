@@ -1,0 +1,211 @@
+---
+title: "Computing Correlation Summary Statistics for Sentinel Stations"
+output: 
+  html_document:
+    theme: spacelab
+    highlighted: default 
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+    toc_depth: 2
+vignette: >
+  %\VignetteIndexEntry{correlation}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Introduction
+
+As a supplement to this manuscript, this package provides easily accessible functions used to compute summary statistics with a sentinel station. Sentinel stations are commonly used in environmental sampling contexts to gauge the behavior of broader trends in an ecosystem.  These stations are given the name, "sentinel stations" because they act as a "scout" for a larger region. Sentinel stations are particularly useful in situations where sampling resources are restricted because they are representative of a larger region.
+In this vignette, you will learn how to use this package to compute correlation summary statistics between a sentinel station and all other stations of interest, which we refer to as "auxiliary stations". If you have not loaded the package already, please do so by running
+```{r, eval = FALSE}
+library(DumelleEtAl2021CopepodSentinel)
+```
+
+## Data
+
+The data you will use contains response variables at five stations. You can load it by running:
+```{r}
+data(stationdata)
+```
+It has five variables:
+
+* `stations`: A character vector of station identifiers.
+* `year`: A numeric vector containing years from 1996-2020.
+* `response`: A response variable for each station-year combination.
+* `xcoord`: x-coordinates of each station.
+* `ycoord`: y-coordinates of each station.
+
+To see the first few rows, run:
+```{r}
+head(stationdata)
+```
+ The data were chosen so that Station-1 and Station-3 were highly correlated through time, but all other station pairs were not correlated through time. 
+ 
+Below is a plot of the spatial location of each station and a time series for each station:
+```{r, fig.show = "hold", out.width = "50%", echo = FALSE}
+station1_subset <- subset(stationdata, stations == "Station-1")
+station2_subset <- subset(stationdata, stations == "Station-2")
+station3_subset <- subset(stationdata, stations == "Station-3")
+station4_subset <- subset(stationdata, stations == "Station-4")
+station5_subset <- subset(stationdata, stations == "Station-5")
+
+# station locations
+plot(station1_subset$xcoord, station1_subset$ycoord, 
+     xlim = c(0, 1), 
+     ylim = c(0, 1), 
+     cex = 2, 
+     pch = 4, 
+     xlab = "x coordinate",
+     ylab = "y coordinate",
+     main = "Station Locations",
+     cex.lab = 1.5)
+points(station2_subset$xcoord, station2_subset$ycoord, cex = 2, pch = 15)
+points(station3_subset$xcoord, station3_subset$ycoord, cex = 2, pch = 16)
+points(station4_subset$xcoord, station4_subset$ycoord, cex = 2, pch = 17)
+points(station5_subset$xcoord, station5_subset$ycoord, cex = 2, pch = 18)
+legend("topleft", pch = c(4, 15, 16, 17, 18),
+       legend = c("Station-1", "Station-2", "Station-3", "Station-4", "Station-5"),
+       cex = 1.5)
+
+
+plot(station1_subset$year, station1_subset$response, type = "l",
+     xlab = "Year", ylab = "Response", main = "Station-1", xlim = c(1996, 2020),
+     ylim = c(-3, 3), cex.lab = 1.5)
+points(station1_subset$year, station1_subset$response, pch = 4)
+
+
+plot(station2_subset$year, station2_subset$response, type = "l",
+     xlab = "Year", ylab = "Response", main = "Station-2", xlim = c(1996, 2020),
+     ylim = c(-3, 3), cex.lab = 1.5)
+points(station2_subset$year, station2_subset$response, pch = 15)
+
+
+plot(station3_subset$year, station3_subset$response, type = "l",
+     xlab = "Year", ylab = "Response", main = "Station-3", xlim = c(1996, 2020),
+     ylim = c(-3, 3), cex.lab = 1.5)
+points(station3_subset$year, station3_subset$response, pch = 16)
+
+
+plot(station4_subset$year, station4_subset$response, type = "l",
+     xlab = "Year", ylab = "Response", main = "Station-4", xlim = c(1996, 2020),
+     ylim = c(-3, 3), cex.lab = 1.5)
+points(station4_subset$year, station4_subset$response, pch = 17)
+
+
+plot(station5_subset$year, station5_subset$response, type = "l",
+     xlab = "Year", ylab = "Response", main = "Station-5", xlim = c(1996, 2020),
+     ylim = c(-3, 3), cex.lab = 1.5)
+points(station5_subset$year, station5_subset$response, pch = 18)
+
+
+
+```
+The time series shapes of Station-1 and Station-3 are similar because the stations are highly correlated. The time series shapes of the other stations are dissimilar because all other station pairs are not highly correlated.
+
+# Using the `sentinel()` Function for Correlation Summary Statistics
+
+## Arguments
+
+The `sentinel()` function is what you will use to compute summary statistics with sentinel stations.  It has several arguments; run `?sentinel` for more information about the function arguments and associated output. The `sentinel()` function has additional arguments when used for correlation summary statistics. Run `?sentinel.correlation` for more information.
+
+## A Single Sentinel Station
+
+Suppose you want to evaluate the utility of "Station-1" as a sentinel station.  To compute correlation summary statistics between "Station-1" and all other stations using Spearman correlations and a two-sided hypothesis test, run:
+```{r}
+s_id <- "Station-1"
+a_id <- c("Station-2", "Station-3", "Station-4", "Station-5")
+single_station <- sentinel(
+  s_id = s_id,
+  a_id = a_id,
+  id = "stations", 
+  group = "year",
+  value = "response",
+  data = stationdata,
+  n_min = 0,
+  type = "correlation",
+  output = c("overall", "individual", "dataset"), 
+  method = "spearman",
+  alternative = "two.sided"
+)
+```
+
+To view the `"overall"` output, run:
+```{r}
+single_station$overall
+```
+On average, Station-1 generally has low correlations with the other stations. But by looking at the maximum correlation estimate, there appears to be one station highly correlated with Station-1. 
+
+To view the `"individual"` output, run:
+```{r}
+single_station$individual
+```
+Station-1 and Station-3 are highly correlated: the correlation estimate is large and positive and the associated p-value is very small. Station 1 does not appear to be correlated with the other stations: several correlation estimates for these stations are near zero and all p-values are large. If you want to adjust the p-values for multiple comparisons using the Benjamini-Hochberg procedure, run:
+```{r}
+single_station$individual$adj_p <- stats::p.adjust(single_station$individual$p,
+                                                   method = "BH")
+single_station$individual
+```
+Several other multiple comparison adjustments are readily available via the `stats::p.adjust()` function (see `?stats::p.adjust` for more information).
+
+To view the first few rows of the `"dataset"` output, run:
+```{r}
+head(single_station$dataset)
+```
+
+## All Stations as Sentinel Stations
+
+Suppose you want to evaluate the utility of each individual station as a sentinel station. To compute correlation summary statistics for this scenario using Spearman correlation and a two-sided hypothesis test, run:
+```{r}
+s_id <- unique(stationdata$stations)
+a_id <- unique(stationdata$stations)
+all_stations <- sentinel(
+  s_id = s_id,
+  a_id = a_id, 
+  id = "stations",
+  group = "year",  
+  value = "response",
+  data = stationdata,
+  n_min = 0, 
+  type = "correlation",
+  output = c("overall", "individual", "dataset"), 
+  method = "spearman",
+  alternative = "two.sided"
+)
+```
+By default, you do not need to specify the `s_id` or `a_id` arguments if you use all unique stations as arguments for either.  For example, the above code is equivalent to:
+```{r}
+all_stations <- sentinel(
+  id = "stations",
+  group = "year", 
+  value = "response",
+  data = stationdata,
+  n_min = 0, 
+  type = "correlation", 
+  output = c("overall", "individual", "dataset"), 
+  method = "spearman",
+  alternative = "two.sided"
+)
+```
+
+
+
+To view the `"overall"` output, run:
+```{r}
+all_stations$overall
+```
+
+
+To view the `"individual"` output, run:
+```{r}
+all_stations$individual
+```
+Station-1 and Station-3 are highly correlated, but all other stations pairs do not seem to be correlated. 
