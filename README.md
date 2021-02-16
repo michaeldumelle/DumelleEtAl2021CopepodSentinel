@@ -31,6 +31,13 @@ install_github("michaeldumelle/DumelleEtAl2021CopepodSentinel")
 
 The functions in this package eventually led to the creation of the *pairstats* package. Because *pairstats* was in beta at the time the paper was published, the functions used to analyze these data are included here.
 
+### Citation
+
+To cite this work, run
+```
+citation("DumelleEtAl2021CopepodSentinel")
+```
+
 ### Data
 
 Example data can be loaded by running
