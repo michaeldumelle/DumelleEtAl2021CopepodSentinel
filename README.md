@@ -38,6 +38,12 @@ To cite this work, run
 citation("DumelleEtAl2021CopepodSentinel")
 ```
 
+or copy 
+
+```
+"Dumelle, Michael., Lamb, Jesse F., Jacobson, Kym C., Hunsicker, Mary., Morgan, Cheryl A., Burke, Brian J., Peterson, William T. 2021. Capturing Copepod Dynamics in the Northern California Current Using Sentinel Stations. Progress in Oceanography."
+```
+
 ### Data
 
 Example data can be loaded by running
