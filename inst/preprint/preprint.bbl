@@ -1,0 +1,548 @@
+\begin{thebibliography}{44}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Benjamini and Hochberg(1995)}]{benjamini1995controlling}
+\bibinfo{author}{Benjamini, Y.}, \bibinfo{author}{Hochberg, Y.},
+  \bibinfo{year}{1995}.
+\newblock \bibinfo{title}{Controlling the false discovery rate: a practical and
+  powerful approach to multiple testing}.
+\newblock \bibinfo{journal}{Journal of the Royal statistical society: series B
+  (Methodological)} \bibinfo{volume}{57}, \bibinfo{pages}{289--300}.
+%Type = Article
+\bibitem[{Bi et~al.(2011)Bi, Peterson and Strub}]{bi2011transport}
+\bibinfo{author}{Bi, H.}, \bibinfo{author}{Peterson, W.T.},
+  \bibinfo{author}{Strub, P.T.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Transport and coastal zooplankton communities in the
+  \text{N}orthern \text{N}alifornia \text{C}urrent system}.
+\newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{38}.
+%Type = Article
+\bibitem[{Bograd et~al.(2009)Bograd, Schroeder, Sarkar, Qiu, Sydeman and
+  Schwing}]{bograd2009phenology}
+\bibinfo{author}{Bograd, S.J.}, \bibinfo{author}{Schroeder, I.},
+  \bibinfo{author}{Sarkar, N.}, \bibinfo{author}{Qiu, X.},
+  \bibinfo{author}{Sydeman, W.J.}, \bibinfo{author}{Schwing, F.B.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Phenology of coastal upwelling in the
+  \text{C}alifornia \text{C}urrent}.
+\newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{36}.
+%Type = Incollection
+\bibitem[{Breteler and Gonzalez(1988)}]{breteler1988influence}
+\bibinfo{author}{Breteler, W.K.}, \bibinfo{author}{Gonzalez, S.},
+  \bibinfo{year}{1988}.
+\newblock \bibinfo{title}{Influence of temperature and food concentration on
+  body size, weight and lipid content of two calanoid copepod species}, in:
+  \bibinfo{booktitle}{Biology of Copepods}. \bibinfo{publisher}{Springer}, pp.
+  \bibinfo{pages}{201--210}.
+%Type = Article
+\bibitem[{Burke et~al.(2013)Burke, Peterson, Beckman, Morgan, Daly and
+  Litz}]{burke2013multivariate}
+\bibinfo{author}{Burke, B.J.}, \bibinfo{author}{Peterson, W.T.},
+  \bibinfo{author}{Beckman, B.R.}, \bibinfo{author}{Morgan, C.},
+  \bibinfo{author}{Daly, E.A.}, \bibinfo{author}{Litz, M.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Multivariate models of adult \text{P}acific salmon
+  returns}.
+\newblock \bibinfo{journal}{PloS one} \bibinfo{volume}{8},
+  \bibinfo{pages}{e54134}.
+%Type = Article
+\bibitem[{Castelao and Barth(2005)}]{castelao2005coastal}
+\bibinfo{author}{Castelao, R.M.}, \bibinfo{author}{Barth, J.A.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Coastal ocean response to summer upwelling favorable
+  winds in a region of alongshore bottom topography variations off
+  \text{O}regon}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Oceans}
+  \bibinfo{volume}{110}.
+%Type = Article
+\bibitem[{Chisholm and Roff(1990)}]{chisholm1990size}
+\bibinfo{author}{Chisholm, L.A.}, \bibinfo{author}{Roff, J.C.},
+  \bibinfo{year}{1990}.
+\newblock \bibinfo{title}{Size-weight relationships and biomass of tropical
+  neritic copepods off \text{K}ingston, \text{J}amaica}.
+\newblock \bibinfo{journal}{Marine Biology} \bibinfo{volume}{106},
+  \bibinfo{pages}{71--77}.
+%Type = Article
+\bibitem[{Cooney et~al.(2001)Cooney, Coyle, Stockmar and
+  Stark}]{cooney2001seasonality}
+\bibinfo{author}{Cooney, R.}, \bibinfo{author}{Coyle, K.},
+  \bibinfo{author}{Stockmar, E.}, \bibinfo{author}{Stark, C.},
+  \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Seasonality in surface-layer net zooplankton
+  communities in \text{P}rince \text{W}illiam \text{S}ound, \text{A}laska}.
+\newblock \bibinfo{journal}{Fisheries Oceanography} \bibinfo{volume}{10},
+  \bibinfo{pages}{97--109}.
+%Type = Article
+\bibitem[{Di~Lorenzo and Ohman(2013)}]{di2013double}
+\bibinfo{author}{Di~Lorenzo, E.}, \bibinfo{author}{Ohman, M.D.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{A double-integration hypothesis to explain ocean
+  ecosystem response to climate forcing}.
+\newblock \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \bibinfo{volume}{110}, \bibinfo{pages}{2496--2499}.
+%Type = Manual
+\bibitem[{Dumelle(2021)}]{dumelle2021pairedstats}
+\bibinfo{author}{Dumelle, M.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{pairedstats: Summary Statistics for Paired Variables.
+  R package version 0.0.0.9001.}
+%Type = Article
+\bibitem[{Fisher et~al.(2015)Fisher, Peterson and
+  Rykaczewski}]{fisher2015impact}
+\bibinfo{author}{Fisher, J.L.}, \bibinfo{author}{Peterson, W.T.},
+  \bibinfo{author}{Rykaczewski, R.R.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{The impact of \text{E}l \text{N}i{\~n}o events on the
+  pelagic food chain in the \text{N}orthern \text{C}alifornia \text{C}urrent}.
+\newblock \bibinfo{journal}{Global Change Biology} \bibinfo{volume}{21},
+  \bibinfo{pages}{4401--4414}.
+%Type = Article
+\bibitem[{Frischknecht et~al.(2017)Frischknecht, M{\"u}nnich and
+  Gruber}]{frischknecht2017local}
+\bibinfo{author}{Frischknecht, M.}, \bibinfo{author}{M{\"u}nnich, M.},
+  \bibinfo{author}{Gruber, N.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Local atmospheric forcing driving an unexpected
+  \text{C}alifornia \text{C}urrent \text{S}ystem response during the 2015--2016
+  \text{E}l \text{N}i{\~n}o}.
+\newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{44},
+  \bibinfo{pages}{304--311}.
+%Type = Article
+\bibitem[{Harvey et~al.(this issue)Harvey, Fisher, Samhouri, Williams, Francis,
+  Jaobson, deReynier, Hunsicker and Garfield}]{harvey2020importance}
+\bibinfo{author}{Harvey, C.}, \bibinfo{author}{Fisher, J.},
+  \bibinfo{author}{Samhouri, J.}, \bibinfo{author}{Williams, G.},
+  \bibinfo{author}{Francis, T.}, \bibinfo{author}{Jaobson, K.},
+  \bibinfo{author}{deReynier, Y.}, \bibinfo{author}{Hunsicker, M.},
+  \bibinfo{author}{Garfield, N.}, \bibinfo{year}{this issue}.
+\newblock \bibinfo{title}{The importance of long-term ecological time series
+  for integrated ecosystem assessment and ecosystem-based management}.
+\newblock \bibinfo{journal}{Progress in Oceanography} .
+%Type = Article
+\bibitem[{Harvey et~al.(2019)Harvey, Garfield, Williams, Tolimieri, Schroeder,
+  Andrews, Barnas, Bjorkstedt, Bograd, Brodeur, Burke, Cope, Coyne, deWitt,
+  Dowell, Field, Fisher, Frey, Good, Greene, Hazen, Holland, Hunter, Jacobson,
+  Jacox, Juhasz, Kaplan, Kasperski, Lawson, Leising, Manderson, Melin, Moore,
+  Morgan, Muhling, Munsch, Norman, Robertson, Rofers-Bennett, Sakuma, Samhouri,
+  Selden, Siedlecki, Somers, Sydeman, Thompson, Thorson, Tommasi, Trainer,
+  Varney, Wells, Williams, Williams, Zamon and Zeman}]{harvey2019ecosystem}
+\bibinfo{author}{Harvey, C.}, \bibinfo{author}{Garfield, N.},
+  \bibinfo{author}{Williams, G.}, \bibinfo{author}{Tolimieri, N.},
+  \bibinfo{author}{Schroeder, I.}, \bibinfo{author}{Andrews, K.},
+  \bibinfo{author}{Barnas, K.}, \bibinfo{author}{Bjorkstedt, E.},
+  \bibinfo{author}{Bograd, S.}, \bibinfo{author}{Brodeur, R.},
+  \bibinfo{author}{Burke, B.}, \bibinfo{author}{Cope, J.},
+  \bibinfo{author}{Coyne, A.}, \bibinfo{author}{deWitt, L.},
+  \bibinfo{author}{Dowell, J.}, \bibinfo{author}{Field, J.},
+  \bibinfo{author}{Fisher, J.}, \bibinfo{author}{Frey, P.},
+  \bibinfo{author}{Good, T.}, \bibinfo{author}{Greene, C.},
+  \bibinfo{author}{Hazen, E.}, \bibinfo{author}{Holland, D.},
+  \bibinfo{author}{Hunter, M.}, \bibinfo{author}{Jacobson, K.},
+  \bibinfo{author}{Jacox, M.}, \bibinfo{author}{Juhasz, C.},
+  \bibinfo{author}{Kaplan, I.}, \bibinfo{author}{Kasperski, S.},
+  \bibinfo{author}{Lawson, D.}, \bibinfo{author}{Leising, A.},
+  \bibinfo{author}{Manderson, A.}, \bibinfo{author}{Melin, S.},
+  \bibinfo{author}{Moore, S.}, \bibinfo{author}{Morgan, C.},
+  \bibinfo{author}{Muhling, B.}, \bibinfo{author}{Munsch, S.},
+  \bibinfo{author}{Norman, K.}, \bibinfo{author}{Robertson, R.},
+  \bibinfo{author}{Rofers-Bennett, L.}, \bibinfo{author}{Sakuma, K.},
+  \bibinfo{author}{Samhouri, J.}, \bibinfo{author}{Selden, R.},
+  \bibinfo{author}{Siedlecki, S.}, \bibinfo{author}{Somers, K.},
+  \bibinfo{author}{Sydeman, W.}, \bibinfo{author}{Thompson, A.},
+  \bibinfo{author}{Thorson, J.}, \bibinfo{author}{Tommasi, D.},
+  \bibinfo{author}{Trainer, A.}, \bibinfo{author}{Varney, A.},
+  \bibinfo{author}{Wells, B.}, \bibinfo{author}{Williams, M.},
+  \bibinfo{author}{Williams, T.}, \bibinfo{author}{Zamon, J.},
+  \bibinfo{author}{Zeman, S.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Ecosystem status report of the \text{C}alifornia
+  \text{C}urrent for 2019: A summary of ecosystem indicators compiled by the
+  \text{C}alifornia \text{C}urrent \text{I}ntegrated \text{E}cosystem
+  \text{A}ssessment team (cciea)}.
+\newblock \bibinfo{journal}{U.S. Department of Commerce, NOAA Technical
+  Memorandum} \bibinfo{volume}{NMFS-NWFSC-149}.
+%Type = Article
+\bibitem[{Harvey et~al.(2018)Harvey, Garfield, Williams, Tolimieri, Schroeder,
+  Hazen, Andrews, Barnas, Bograd, Brodeur, Burke, Cope, deWitt, Field, Fisher,
+  Greene, Holland, Hunsicker, Jacox, Kasperski, Kim, Leising, Melin, Morgan,
+  Muhling, Munsch, Norman, Peterson, Poe, Samhouri, Sydeman, Thayer, Thompson,
+  Tommasi, Varney, Wells, Williams, Zamon, Lawson, Anderson, Gao, Litzow,
+  McClatchie, Ward and Zador}]{harvey2018ecosystem}
+\bibinfo{author}{Harvey, C.}, \bibinfo{author}{Garfield, N.},
+  \bibinfo{author}{Williams, G.}, \bibinfo{author}{Tolimieri, N.},
+  \bibinfo{author}{Schroeder, I.}, \bibinfo{author}{Hazen, E.},
+  \bibinfo{author}{Andrews, K.}, \bibinfo{author}{Barnas, K.},
+  \bibinfo{author}{Bograd, S.}, \bibinfo{author}{Brodeur, R.},
+  \bibinfo{author}{Burke, B.}, \bibinfo{author}{Cope, J.},
+  \bibinfo{author}{deWitt, L.}, \bibinfo{author}{Field, J.},
+  \bibinfo{author}{Fisher, J.}, \bibinfo{author}{Greene, C.},
+  \bibinfo{author}{Holland, D.}, \bibinfo{author}{Hunsicker, M.},
+  \bibinfo{author}{Jacox, M.}, \bibinfo{author}{Kasperski, S.},
+  \bibinfo{author}{Kim, S.}, \bibinfo{author}{Leising, A.},
+  \bibinfo{author}{Melin, S.}, \bibinfo{author}{Morgan, C.},
+  \bibinfo{author}{Muhling, B.}, \bibinfo{author}{Munsch, S.},
+  \bibinfo{author}{Norman, K.}, \bibinfo{author}{Peterson, W.},
+  \bibinfo{author}{Poe, M.}, \bibinfo{author}{Samhouri, J.},
+  \bibinfo{author}{Sydeman, W.}, \bibinfo{author}{Thayer, J.},
+  \bibinfo{author}{Thompson, A.}, \bibinfo{author}{Tommasi, D.},
+  \bibinfo{author}{Varney, A.}, \bibinfo{author}{Wells, B.},
+  \bibinfo{author}{Williams, T.}, \bibinfo{author}{Zamon, J.},
+  \bibinfo{author}{Lawson, D.}, \bibinfo{author}{Anderson, S.},
+  \bibinfo{author}{Gao, J.}, \bibinfo{author}{Litzow, M.},
+  \bibinfo{author}{McClatchie, S.}, \bibinfo{author}{Ward, E.},
+  \bibinfo{author}{Zador, S.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Ecosystem status report of the \text{C}alifornia
+  \text{C}urrent for 2018: A summary of ecosystem indicators compiled by the
+  \text{C}alifornia \text{C}urrent \text{I}ntegrated \text{E}cosystem
+  \text{A}ssessment team (cciea)}.
+\newblock \bibinfo{journal}{U.S. Department of Commerce, NOAA Technical
+  Memorandum} \bibinfo{volume}{NMFS-NWFSC-145}.
+%Type = Article
+\bibitem[{Hermann et~al.(2009)Hermann, Curchitser, Haidvogel and
+  Dobbins}]{hermann2009comparison}
+\bibinfo{author}{Hermann, A.J.}, \bibinfo{author}{Curchitser, E.N.},
+  \bibinfo{author}{Haidvogel, D.B.}, \bibinfo{author}{Dobbins, E.L.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{A comparison of remote vs. local influence of
+  \text{E}l \text{N}i{\~n}o on the coastal circulation of the \text{N}ortheast
+  \text{P}acific}.
+\newblock \bibinfo{journal}{Deep Sea Research Part II: Topical Studies in
+  Oceanography} \bibinfo{volume}{56}, \bibinfo{pages}{2427--2443}.
+%Type = Article
+\bibitem[{Hooff and Peterson(2006)}]{hooff2006copepod}
+\bibinfo{author}{Hooff, R.C.}, \bibinfo{author}{Peterson, W.T.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Copepod biodiversity as an indicator of changes in
+  ocean and climate conditions of the \text{N}orthern \text{C}alifornia
+  \text{C}urrent ecosystem}.
+\newblock \bibinfo{journal}{Limnology and Oceanography} \bibinfo{volume}{51},
+  \bibinfo{pages}{2607--2620}.
+%Type = Article
+\bibitem[{Keister et~al.(2011)Keister, Di~Lorenzo, Morgan, Combes and
+  Peterson}]{keister2011zooplankton}
+\bibinfo{author}{Keister, J.E.}, \bibinfo{author}{Di~Lorenzo, E.},
+  \bibinfo{author}{Morgan, C.}, \bibinfo{author}{Combes, V.},
+  \bibinfo{author}{Peterson, W.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Zooplankton species composition is linked to ocean
+  transport in the \text{N}orthern \text{C}alifornia \text{C}urrent}.
+\newblock \bibinfo{journal}{Global Change Biology} \bibinfo{volume}{17},
+  \bibinfo{pages}{2498--2511}.
+%Type = Article
+\bibitem[{Keister and Peterson(2003)}]{keister2003zonal}
+\bibinfo{author}{Keister, J.E.}, \bibinfo{author}{Peterson, W.T.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Zonal and seasonal variations in zooplankton
+  community structure off the \text{C}entral \text{O}regon coast, 1998--2000}.
+\newblock \bibinfo{journal}{Progress in Oceanography} \bibinfo{volume}{57},
+  \bibinfo{pages}{341--361}.
+%Type = Article
+\bibitem[{Kosro et~al.(2006)Kosro, Peterson, Hickey, Shearman and
+  Pierce}]{kosro2006physical}
+\bibinfo{author}{Kosro, P.M.}, \bibinfo{author}{Peterson, W.T.},
+  \bibinfo{author}{Hickey, B.M.}, \bibinfo{author}{Shearman, R.K.},
+  \bibinfo{author}{Pierce, S.D.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Physical versus biological spring transition: 2005}.
+\newblock \bibinfo{journal}{Geophysical research letters} \bibinfo{volume}{33}.
+%Type = Incollection
+\bibitem[{Landry et~al.(1989)Landry, Postel, Peterson and
+  Newman}]{landry1989broad}
+\bibinfo{author}{Landry, M.}, \bibinfo{author}{Postel, J.},
+  \bibinfo{author}{Peterson, W.}, \bibinfo{author}{Newman, J.},
+  \bibinfo{year}{1989}.
+\newblock \bibinfo{title}{Broad-scale distributional patterns of hydrographic
+  variables on the \text{W}ashington/\text{O}regon shelf}, in:
+  \bibinfo{booktitle}{Elsevier Oceanography Series}.
+  \bibinfo{publisher}{Elsevier}. volume~\bibinfo{volume}{47}, pp.
+  \bibinfo{pages}{1--40}.
+%Type = Article
+\bibitem[{Mackas et~al.(2006)Mackas, Peterson, Ohman and
+  Lavaniegos}]{mackas2006zooplankton}
+\bibinfo{author}{Mackas, D.}, \bibinfo{author}{Peterson, W.},
+  \bibinfo{author}{Ohman, M.}, \bibinfo{author}{Lavaniegos, B.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Zooplankton anomalies in the \text{C}alifornia
+  \text{C}urrent system before and during the warm ocean conditions of 2005}.
+\newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{33}.
+%Type = Article
+\bibitem[{Mackas et~al.(2004)Mackas, Peterson and
+  Zamon}]{mackas2004comparisons}
+\bibinfo{author}{Mackas, D.}, \bibinfo{author}{Peterson, W.},
+  \bibinfo{author}{Zamon, J.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Comparisons of interannual biomass anomalies of
+  zooplankton communities along the continental margins of \text{B}ritish
+  \text{C}olumbia and \text{O}regon}.
+\newblock \bibinfo{journal}{Deep Sea Research Part II: Topical Studies in
+  Oceanography} \bibinfo{volume}{51}, \bibinfo{pages}{875--896}.
+%Type = Article
+\bibitem[{Mackas et~al.(2001)Mackas, Thomson and Galbraith}]{mackas2001changes}
+\bibinfo{author}{Mackas, D.}, \bibinfo{author}{Thomson, R.E.},
+  \bibinfo{author}{Galbraith, M.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Changes in the zooplankton community of the
+  \text{B}ritish \text{C}olumbia continental margin, 1985-1999, and their
+  covariation with oceanographic conditions}.
+\newblock \bibinfo{journal}{Canadian Journal of Fisheries and Aquatic Sciences}
+  \bibinfo{volume}{58}, \bibinfo{pages}{685--702}.
+%Type = Article
+\bibitem[{Mantua et~al.(1997)Mantua, Hare, Zhang, Wallace and
+  Francis}]{mantua1997pacific}
+\bibinfo{author}{Mantua, N.J.}, \bibinfo{author}{Hare, S.R.},
+  \bibinfo{author}{Zhang, Y.}, \bibinfo{author}{Wallace, J.M.},
+  \bibinfo{author}{Francis, R.C.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{A \text{P}acific interdecadal climate oscillation
+  with impacts on salmon production}.
+\newblock \bibinfo{journal}{Bulletin of the american Meteorological Society}
+  \bibinfo{volume}{78}, \bibinfo{pages}{1069--1080}.
+%Type = Article
+\bibitem[{Miller et~al.(2017)Miller, Peterson, Copeman, Du, Morgan and
+  Litz}]{miller2017temporal}
+\bibinfo{author}{Miller, J.A.}, \bibinfo{author}{Peterson, W.},
+  \bibinfo{author}{Copeman, L.A.}, \bibinfo{author}{Du, X.},
+  \bibinfo{author}{Morgan, C.}, \bibinfo{author}{Litz, M.N.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Temporal variation in the biochemical ecology of
+  lower trophic levels in the \text{N}orthern \text{C}alifornia
+  \text{C}urrent}.
+\newblock \bibinfo{journal}{Progress in Oceanography} \bibinfo{volume}{155},
+  \bibinfo{pages}{1--12}.
+%Type = Article
+\bibitem[{Morgan et~al.(2003)Morgan, Peterson and Emmett}]{morgan2003onshore}
+\bibinfo{author}{Morgan, C.A.}, \bibinfo{author}{Peterson, W.T.},
+  \bibinfo{author}{Emmett, R.L.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Onshore offshore variations in copepod community
+  structure off the \text{O}regon coast during the summer upwelling season}.
+\newblock \bibinfo{journal}{Marine Ecology Progress Series}
+  \bibinfo{volume}{249}, \bibinfo{pages}{223--236}.
+%Type = Phdthesis
+\bibitem[{Peterson(1980)}]{peterson1980life}
+\bibinfo{author}{Peterson, W.}, \bibinfo{year}{1980}.
+\newblock \bibinfo{title}{Life history and ecology of \textit{Calanus
+  marshallae} in the \text{O}regon upwelling zone}.
+\newblock Ph.D. thesis. Oceanography (p. 200). Ph. D. thesis, Oregon State
+  University.
+%Type = Article
+\bibitem[{Peterson(1977)}]{peterson1977seasonal}
+\bibinfo{author}{Peterson, W.T.}, \bibinfo{year}{1977}.
+\newblock \bibinfo{title}{Seasonal cycle of zooplankton abundance and species
+  composition along the \text{C}entral \text{O}regon coast}.
+\newblock \bibinfo{journal}{Fish. Bull.} \bibinfo{volume}{75},
+  \bibinfo{pages}{717--724}.
+%Type = Article
+\bibitem[{Peterson et~al.(2014)Peterson, Fisher, Peterson, Morgan, Burke and
+  Fresh}]{peterson2014applied}
+\bibinfo{author}{Peterson, W.T.}, \bibinfo{author}{Fisher, J.L.},
+  \bibinfo{author}{Peterson, J.O.}, \bibinfo{author}{Morgan, C.A.},
+  \bibinfo{author}{Burke, B.J.}, \bibinfo{author}{Fresh, K.L.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Applied fisheries oceanography: ecosystem indicators
+  of ocean conditions inform fisheries management in the \text{C}alifornia
+  \text{C}urrent}.
+\newblock \bibinfo{journal}{Oceanography} \bibinfo{volume}{27},
+  \bibinfo{pages}{80--89}.
+%Type = Article
+\bibitem[{Peterson et~al.(2017)Peterson, Fisher, Strub, Du, Risien, Peterson
+  and Shaw}]{peterson2017pelagic}
+\bibinfo{author}{Peterson, W.T.}, \bibinfo{author}{Fisher, J.L.},
+  \bibinfo{author}{Strub, P.T.}, \bibinfo{author}{Du, X.},
+  \bibinfo{author}{Risien, C.}, \bibinfo{author}{Peterson, J.},
+  \bibinfo{author}{Shaw, C.T.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{The pelagic ecosystem in the \text{N}orthern
+  \text{C}alifornia \text{C}urrent off \text{O}regon during the 2014--2016 warm
+  anomalies within the context of the past 20 years}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Oceans}
+  \bibinfo{volume}{122}, \bibinfo{pages}{7267--7290}.
+%Type = Article
+\bibitem[{Peterson and Keister(2002)}]{peterson2002effect}
+\bibinfo{author}{Peterson, W.T.}, \bibinfo{author}{Keister, J.E.},
+  \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{The effect of a large cape on distribution patterns
+  of coastal and oceanic copepods off \text{O}regon and \text{N}orthern
+  \text{C}alifornia during the 1998--1999 \text{E}l \text{N}i{\~n}o--\text{L}a
+  \text{N}i{\~n}a}.
+\newblock \bibinfo{journal}{Progress in Oceanography} \bibinfo{volume}{53},
+  \bibinfo{pages}{389--411}.
+%Type = Article
+\bibitem[{Peterson and Keister(2003)}]{peterson2003interannual}
+\bibinfo{author}{Peterson, W.T.}, \bibinfo{author}{Keister, J.E.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Interannual variability in copepod community
+  composition at a coastal station in the \text{N}orthern \text{C}alifornia
+  \text{C}urrent: a multivariate approach}.
+\newblock \bibinfo{journal}{Deep Sea Research Part II: Topical Studies in
+  Oceanography} \bibinfo{volume}{50}, \bibinfo{pages}{2499--2517}.
+%Type = Article
+\bibitem[{Peterson et~al.(1979)Peterson, Miller and
+  Hutchinson}]{peterson1979zonation}
+\bibinfo{author}{Peterson, W.T.}, \bibinfo{author}{Miller, C.B.},
+  \bibinfo{author}{Hutchinson, A.}, \bibinfo{year}{1979}.
+\newblock \bibinfo{title}{Zonation and maintenance of copepod populations in
+  the \text{O}regon upwelling zone}.
+\newblock \bibinfo{journal}{Deep Sea Research Part A. Oceanographic Research
+  Papers} \bibinfo{volume}{26}, \bibinfo{pages}{467--494}.
+%Type = Manual
+\bibitem[{{R Core Team}(2019)}]{rcore2019r}
+\bibinfo{author}{{R Core Team}}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{R: A Language and Environment for Statistical
+  Computing}.
+\newblock \bibinfo{organization}{R Foundation for Statistical Computing}.
+  \bibinfo{address}{Vienna, Austria}.
+\newblock \URLprefix \url{https://www.R-project.org/}.
+%Type = Article
+\bibitem[{Robertson(1968)}]{robertson1968continuous}
+\bibinfo{author}{Robertson, A.}, \bibinfo{year}{1968}.
+\newblock \bibinfo{title}{Continuous plankton recorder: a method for studying
+  the biomass of calanoid copepods}.
+\newblock \bibinfo{journal}{Bulletins of marine ecology} .
+%Type = Article
+\bibitem[{Rupp et~al.(2012)Rupp, Wainwright, Lawson and
+  Peterson}]{rupp2012marine}
+\bibinfo{author}{Rupp, D.E.}, \bibinfo{author}{Wainwright, T.C.},
+  \bibinfo{author}{Lawson, P.W.}, \bibinfo{author}{Peterson, W.T.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Marine environment-based forecasting of coho salmon
+  (\textit{Oncorhynchus kisutch}) adult recruitment}.
+\newblock \bibinfo{journal}{Fisheries Oceanography} \bibinfo{volume}{21},
+  \bibinfo{pages}{1--19}.
+%Type = Article
+\bibitem[{Thompson et~al.(2018)Thompson, Schroeder, Bograd, Hazen, Jacox,
+  Leising, Wells, Largier, Fisher, Jacobson, Zeman, Bjorkstedt, Robertson,
+  Chavez, Kahru, Goericke, Mcclatchie, Peabody, Baumgartner, Lavaniegos,
+  Gomez-Valdes, Brodeur, Daly, Morgan, Auth, Burke, Field, Sakuma, Weber,
+  Watson, Coates, Schoenbaum, Rogers-Bennett, Suryan, Dolliver, Loredo, Zamon,
+  Schneider, Golightly, Warzybok, Jahncke, Santora, Thompson, Sydeman and
+  Melin}]{thompson2018state}
+\bibinfo{author}{Thompson, A.}, \bibinfo{author}{Schroeder, I.},
+  \bibinfo{author}{Bograd, S.}, \bibinfo{author}{Hazen, E.},
+  \bibinfo{author}{Jacox, M.}, \bibinfo{author}{Leising, A.},
+  \bibinfo{author}{Wells, B.}, \bibinfo{author}{Largier, J.},
+  \bibinfo{author}{Fisher, J.}, \bibinfo{author}{Jacobson, K.},
+  \bibinfo{author}{Zeman, S.}, \bibinfo{author}{Bjorkstedt, E.},
+  \bibinfo{author}{Robertson, R.}, \bibinfo{author}{Chavez, F.},
+  \bibinfo{author}{Kahru, M.}, \bibinfo{author}{Goericke, R.},
+  \bibinfo{author}{Mcclatchie, S.}, \bibinfo{author}{Peabody, C.},
+  \bibinfo{author}{Baumgartner, T.}, \bibinfo{author}{Lavaniegos, B.},
+  \bibinfo{author}{Gomez-Valdes, J.}, \bibinfo{author}{Brodeur, R.},
+  \bibinfo{author}{Daly, E.}, \bibinfo{author}{Morgan, C.},
+  \bibinfo{author}{Auth, T.}, \bibinfo{author}{Burke, B.},
+  \bibinfo{author}{Field, J.}, \bibinfo{author}{Sakuma, K.},
+  \bibinfo{author}{Weber, E.}, \bibinfo{author}{Watson, W.},
+  \bibinfo{author}{Coates, J.}, \bibinfo{author}{Schoenbaum, R.},
+  \bibinfo{author}{Rogers-Bennett, L.}, \bibinfo{author}{Suryan, R.},
+  \bibinfo{author}{Dolliver, J.}, \bibinfo{author}{Loredo, S.},
+  \bibinfo{author}{Zamon, J.}, \bibinfo{author}{Schneider, S.},
+  \bibinfo{author}{Golightly, R.}, \bibinfo{author}{Warzybok, P.},
+  \bibinfo{author}{Jahncke, J.}, \bibinfo{author}{Santora, J.},
+  \bibinfo{author}{Thompson, S.}, \bibinfo{author}{Sydeman, W.},
+  \bibinfo{author}{Melin, S.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{State of the \text{C}alifornia \text{C}urrent
+  2016-17: Still anything but" normal" in the \text{N}orth}.
+\newblock \bibinfo{journal}{California Cooperative Oceanic Fisheries
+  Investigations Reports} \bibinfo{volume}{59}, \bibinfo{pages}{1--66}.
+%Type = Article
+\bibitem[{Thompson et~al.(2019)Thompson, Schroeder, Bograd, Hazen, Jacox,
+  Leising, Wells, Largier, Fisher, Jacobson, Zeman, Bjorkstedt, Robertson,
+  Kahru, Goericke, Peabody, Baumgartner, Lavaniegos, Miranda, Gomez-Ocampo,
+  Gomez-Valdes, Auth, Daly, Morgan, Burke, Field, Sakuma, Weber, Watson,
+  Porquez, Dolliver, Lyons, Orben, Zamon, Pete, Jahncke, Santora, Thomspson,
+  Hoover, Sydeman and Melin}]{thompson2019state}
+\bibinfo{author}{Thompson, A.}, \bibinfo{author}{Schroeder, I.},
+  \bibinfo{author}{Bograd, S.}, \bibinfo{author}{Hazen, E.},
+  \bibinfo{author}{Jacox, M.}, \bibinfo{author}{Leising, A.},
+  \bibinfo{author}{Wells, B.}, \bibinfo{author}{Largier, J.},
+  \bibinfo{author}{Fisher, J.}, \bibinfo{author}{Jacobson, K.},
+  \bibinfo{author}{Zeman, S.}, \bibinfo{author}{Bjorkstedt, E.},
+  \bibinfo{author}{Robertson, R.}, \bibinfo{author}{Kahru, M.},
+  \bibinfo{author}{Goericke, R.}, \bibinfo{author}{Peabody, C.},
+  \bibinfo{author}{Baumgartner, T.}, \bibinfo{author}{Lavaniegos, B.},
+  \bibinfo{author}{Miranda, L.}, \bibinfo{author}{Gomez-Ocampo, E.},
+  \bibinfo{author}{Gomez-Valdes, J.}, \bibinfo{author}{Auth, T.},
+  \bibinfo{author}{Daly, E.}, \bibinfo{author}{Morgan, C.},
+  \bibinfo{author}{Burke, B.}, \bibinfo{author}{Field, J.},
+  \bibinfo{author}{Sakuma, K.}, \bibinfo{author}{Weber, E.},
+  \bibinfo{author}{Watson, W.}, \bibinfo{author}{Porquez, J.},
+  \bibinfo{author}{Dolliver, J.}, \bibinfo{author}{Lyons, D.},
+  \bibinfo{author}{Orben, R.}, \bibinfo{author}{Zamon, J.},
+  \bibinfo{author}{Pete, W.}, \bibinfo{author}{Jahncke, J.},
+  \bibinfo{author}{Santora, J.}, \bibinfo{author}{Thomspson, S.},
+  \bibinfo{author}{Hoover, B.}, \bibinfo{author}{Sydeman, W.},
+  \bibinfo{author}{Melin, S.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{State of the \text{C}alifornia \text{C}urrent
+  2018-19: A novel anchovy regime and a new marine heatwave?}
+\newblock \bibinfo{journal}{California Cooperative Oceanic Fisheries
+  Investigations Reports} \bibinfo{volume}{60}.
+%Type = Article
+\bibitem[{Tucker et~al.(2015)Tucker, Thiess, Morris, Mackas, Peterson, Candy,
+  Beacham, Iwamoto, Teel, Peterson et~al.}]{tucker2015coastal}
+\bibinfo{author}{Tucker, S.}, \bibinfo{author}{Thiess, M.},
+  \bibinfo{author}{Morris, J.}, \bibinfo{author}{Mackas, D.},
+  \bibinfo{author}{Peterson, W.}, \bibinfo{author}{Candy, J.},
+  \bibinfo{author}{Beacham, T.}, \bibinfo{author}{Iwamoto, E.},
+  \bibinfo{author}{Teel, D.J.}, \bibinfo{author}{Peterson, M.}, et~al.,
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Coastal distribution and consequent factors
+  influencing production of endangered \text{S}nake \text{R}iver sockeye
+  salmon}.
+\newblock \bibinfo{journal}{Transactions of the American Fisheries Society}
+  \bibinfo{volume}{144}, \bibinfo{pages}{107--123}.
+%Type = Article
+\bibitem[{Uye(1982)}]{uye1982length}
+\bibinfo{author}{Uye, S.i.}, \bibinfo{year}{1982}.
+\newblock \bibinfo{title}{Length-weight relationships of important zooplankton
+  from the \text{I}nland \text{S}ea of \text{J}apan}.
+\newblock \bibinfo{journal}{Journal of the Oceanographical Society of Japan}
+  \bibinfo{volume}{38}, \bibinfo{pages}{149--158}.
+%Type = Article
+\bibitem[{Webber and Roff(1995)}]{webber1995annual}
+\bibinfo{author}{Webber, M.K.}, \bibinfo{author}{Roff, J.C.},
+  \bibinfo{year}{1995}.
+\newblock \bibinfo{title}{Annual biomass and production of the oceanic copepod
+  community off \text{D}iscovery \text{B}ay, \text{J}amaica}.
+\newblock \bibinfo{journal}{Marine Biology} \bibinfo{volume}{123},
+  \bibinfo{pages}{481--495}.
+%Type = Article
+\bibitem[{Wells et~al.(2017)Wells, Schroeder, Bograd, Hazen, Jacox, Leising,
+  Mantua, Santora, Fisher, Peterson, Bjorkstedt, Robertson, Chavez, Goericke,
+  Kudela, Anderson, Lavaniegos, Gomez-Valdes, Brodeur, Daly, Morgan, Auth,
+  Field, Sakuma, McClatchie, Thompson, Weber, Watson, Suryan, Parrish,
+  Dolliver, Loredo, Porquez, Zamon, Schneider, Golightly, Warzybok, Bradley,
+  Jahncke, Sydeman, Melin, Hildebrand, Debich and Thayre}]{wells2017state}
+\bibinfo{author}{Wells, B.}, \bibinfo{author}{Schroeder, I.},
+  \bibinfo{author}{Bograd, S.}, \bibinfo{author}{Hazen, E.},
+  \bibinfo{author}{Jacox, M.}, \bibinfo{author}{Leising, A.},
+  \bibinfo{author}{Mantua, N.}, \bibinfo{author}{Santora, J.},
+  \bibinfo{author}{Fisher, J.}, \bibinfo{author}{Peterson, B.},
+  \bibinfo{author}{Bjorkstedt, E.}, \bibinfo{author}{Robertson, R.},
+  \bibinfo{author}{Chavez, F.}, \bibinfo{author}{Goericke, R.},
+  \bibinfo{author}{Kudela, R.}, \bibinfo{author}{Anderson, C.},
+  \bibinfo{author}{Lavaniegos, B.}, \bibinfo{author}{Gomez-Valdes, J.},
+  \bibinfo{author}{Brodeur, R.}, \bibinfo{author}{Daly, E.},
+  \bibinfo{author}{Morgan, C.}, \bibinfo{author}{Auth, T.},
+  \bibinfo{author}{Field, J.}, \bibinfo{author}{Sakuma, K.},
+  \bibinfo{author}{McClatchie, S.}, \bibinfo{author}{Thompson, A.},
+  \bibinfo{author}{Weber, E.}, \bibinfo{author}{Watson, W.},
+  \bibinfo{author}{Suryan, R.}, \bibinfo{author}{Parrish, J.},
+  \bibinfo{author}{Dolliver, J.}, \bibinfo{author}{Loredo, S.},
+  \bibinfo{author}{Porquez, J.}, \bibinfo{author}{Zamon, J.},
+  \bibinfo{author}{Schneider, S.}, \bibinfo{author}{Golightly, R.},
+  \bibinfo{author}{Warzybok, P.}, \bibinfo{author}{Bradley, R.},
+  \bibinfo{author}{Jahncke, J.}, \bibinfo{author}{Sydeman, W.},
+  \bibinfo{author}{Melin, S.}, \bibinfo{author}{Hildebrand, J.},
+  \bibinfo{author}{Debich, A.}, \bibinfo{author}{Thayre, B.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{State of the \text{C}alifornia \text{C}urrent
+  2016-17: Still anything but" normal" in the \text{N}orth}.
+\newblock \bibinfo{journal}{California Cooperative Oceanic Fisheries
+  Investigations Reports} \bibinfo{volume}{58}, \bibinfo{pages}{1--55}.
+%Type = Misc
+\bibitem[{Zimmerman(2012)}]{zimmerman20122010}
+\bibinfo{author}{Zimmerman, M.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{2010 wild coho forecasts for \text{P}uget
+  \text{S}ound, \text{W}ashington \text{C}oast, and \text{L}ower
+  \text{C}olumbia}.
+
+\end{thebibliography}
