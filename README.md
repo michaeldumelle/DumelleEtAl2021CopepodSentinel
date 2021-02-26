@@ -58,10 +58,10 @@ An example R script used for the analysis can be found by running
 system.file("scripts/analysis.R", package = "DumelleEtAl2021CopepodSentinel")
 ```
 
-### Vignette
-
-A vignette providing additional examples of using the package's functions can be found by running (may need to edit first lines to install vignette)
-
 ### Source Document
 
-Will copy from Overleaf when done but before resubmitting
+A preprint PDF can be found by running
+
+```
+system.file("preprint/preprint.pdf", package = "DumelleEtAl2021CopepodSentinel")
+```
