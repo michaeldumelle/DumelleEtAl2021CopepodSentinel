@@ -20,6 +20,16 @@
 ### Abstract 
 Ecosystem indicators track information about states and trends in ocean systems and are a valuable tool for ecosystem assessment and management.  To ensure that indicators are used appropriately in both science and management contexts, it is important to understand the extent to which they represent broader spatial patterns.  In the Northern California Current (NCC) off the Oregon and Washington state coasts in the USA, copepod metrics derived from data collected at a well-sampled station on the Newport Hydrographic (NH) Line (‘NH05’, five nmi offshore from Newport, OR, USA) are commonly used as indicators of the region’s general ocean conditions.  Using correlation analyses, we examined the utility of NH05 as a sentinel station (i.e. representative of a broader region) with respect to the abundance and biomass of warm-water and cold-water copepods in the NCC.  Copepod correlations between NH05 and other locations in the NCC were higher for the warm-water copepods than the cold-water group, with correlations being slightly higher for abundance than biomass. *Paracalanus parvus* had the highest NH05 correlations among the warm-water copepod species, and *Acartia longiremis* had the highest NH05 correlations among the cold-water copepod species. We also broadened our analysis and evaluated other sampling sites as sentinel stations and discussed implications.  This analysis emphasized that the warm-water copepods tend to be more similarly distributed in the NCC than the cold-water copepods, and thus their changes through time are better captured by most stations.  In contrast, correlations among the cold-water copepods in the NCC vary by location and appear to be strongly related to depth, with the highest correlations at mid-shelf stations.
 
+### Source Document
+
+A preprint PDF can be viewed [here]()
+
+After installation of "DumelleEtAl2021CopepodSentinel" (see the next header), it can also be found by running
+
+```
+system.file("preprint/preprint.pdf", package = "DumelleEtAl2021CopepodSentinel")
+```
+
 ### Installation
 
 The easiest way to install this R package is to run
@@ -56,12 +66,4 @@ data(copepod)
 An example R script used for the analysis can be found by running
 ```
 system.file("scripts/analysis.R", package = "DumelleEtAl2021CopepodSentinel")
-```
-
-### Source Document
-
-A preprint PDF can be found by running
-
-```
-system.file("preprint/preprint.pdf", package = "DumelleEtAl2021CopepodSentinel")
 ```
