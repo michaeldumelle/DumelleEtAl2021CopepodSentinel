@@ -36,7 +36,7 @@ The easiest way to install this R package is to run
 ```
 install.packages("devtools")
 library(devtools)
-install_github("michaeldumelle/DumelleEtAl2021CopepodSentinel")
+devtool::install_github("michaeldumelle/DumelleEtAl2021CopepodSentinel@main")
 ```
 
 The functions in this package eventually led to the creation of the *pairedstats* package. Because *pairedstats* was in beta at the time the paper was published, the functions used to analyze these data at the time of publication are included here. More information regarding *pairedstats* can be found [here](https://github.com/michaeldumelle/pairedstats).
