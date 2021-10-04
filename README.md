@@ -22,7 +22,7 @@ Ecosystem indicators track information about states and trends in ocean systems 
 
 ### Source Document
 
-A preprint PDF can be viewed [here](https://github.com/michaeldumelle/DumelleEtAl2021CopepodSentinel/blob/main/inst/preprint/preprint.pdf).
+The journal article can be viewed [here](https://www.sciencedirect.com/science/article/pii/S0079661121000379). A preprint PDF can be viewed [here](https://github.com/michaeldumelle/DumelleEtAl2021CopepodSentinel/blob/main/inst/preprint/preprint.pdf).
 
 After installation of "DumelleEtAl2021CopepodSentinel" (see the next header), it can also be found by running
 
